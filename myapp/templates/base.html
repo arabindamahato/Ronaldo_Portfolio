@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Arabinda</title> 
+	{% include "head.html" %}
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+    {% include "navbar.html" %}
+    
+    {% include "home.html" %}
+
+    
+    {% include "about.html" %}
+
+    {% include "partner.html" %}
+
+    {% include "resume.html" %}
+
+    {% include "service.html" %}
+
+
+    {% include "project.html" %}
+
+    {% include "goodwill_meter.html" %}
+
+    {% include "blog.html" %}
+
+    {% include "hireme.html" %}
+
+    {% include "contact.html" %}
+
+	{% include "footer.html" %}
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" /></svg></div>
+
+    {% include "scripts.html" %}
+
+</body>
+
+</html>
+
